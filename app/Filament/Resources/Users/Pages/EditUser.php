@@ -12,11 +12,11 @@ class EditUser extends EditRecord
 {
     protected static string $resource = UserResource::class;
 
-    protected static ?string $navigationLabel = 'Edit profile';
+    protected static ?string $navigationLabel = 'Edit';
 
     protected static ?int $navigationSort = 2;
 
-    protected static string|\BackedEnum|null $navigationIcon = Heroicon::OutlinedPencil;
+    protected static string|\BackedEnum|null $navigationIcon = Heroicon::Pencil;
 
     protected function getHeaderActions(): array
     {
